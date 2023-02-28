@@ -1,0 +1,17 @@
+C:\Users\gusta\source\repos\layouts\layouts\layouts\bin\Debug\netstandard2.0\layouts.deps.json
+C:\Users\gusta\source\repos\layouts\layouts\layouts\bin\Debug\netstandard2.0\layouts.dll
+C:\Users\gusta\source\repos\layouts\layouts\layouts\bin\Debug\netstandard2.0\layouts.pdb
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\layouts.csproj.AssemblyReference.cache
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\layouts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\detalle.xaml.g.cs
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\maestro.xaml.g.cs
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\layouts.AssemblyInfoInputs.cache
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\layouts.AssemblyInfo.cs
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\layouts.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\layouts.dll
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\refint\layouts.dll
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\layouts.pdb
+C:\Users\gusta\source\repos\layouts\layouts\layouts\obj\Debug\netstandard2.0\ref\layouts.dll

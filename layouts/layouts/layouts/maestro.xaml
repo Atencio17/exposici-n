@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="layouts.maestro"
+             Title="maestro">
+    <ContentPage.Content>
+        <StackLayout Padding="25">
+            <Button Text="Relative layout"/>
+            <Button Text="Absolute layout"/>
+            <Button Text="Grid layout"/>
+            <Button Text="Flex layout"/>
+            <Button Text="Stack layout"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
