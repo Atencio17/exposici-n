@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj": {}
+    "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj": {
+    "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj",
         "projectName": "layouts.iOS",
-        "projectPath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts.iOS\\obj\\",
+        "projectPath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj",
+        "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "E:\\VS\\COMPONENTES HERRAMIENTAS SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj": {
-                "projectPath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj"
+              "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj": {
+                "projectPath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj": {
+    "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj",
+        "projectUniqueName": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj",
         "projectName": "layouts",
-        "projectPath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\obj\\",
+        "projectPath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj",
+        "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\VS\\COMPONENTES HERRAMIENTAS SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

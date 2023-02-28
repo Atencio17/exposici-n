@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj": {}
+    "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj": {
+    "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj",
+        "projectUniqueName": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj",
         "projectName": "layouts",
-        "projectPath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\obj\\",
+        "projectPath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj",
+        "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\VS\\COMPONENTES HERRAMIENTAS SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

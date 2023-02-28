@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hxv08dnmxaBn7WH+WDm2GLK/+eWOqadp/l2z+o1nDCMhQU1YLuaisEFIUwE5FMPyPF6fe2I/5zJaSqN3nQ0y8g==",
+  "dgSpecHash": "e/cvSFFhFh4IoGmWMleXYxZ4RkKgwy1tBE4E3q8RqzOMxDKz79t0FRxBd5kIri17teoAnAhWh3dg0fHbFF3FRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj",
+  "projectFilePath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts.iOS\\layouts.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gusta\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\micro\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\micro\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\micro\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

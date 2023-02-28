@@ -5,11 +5,32 @@
              Title="maestro">
     <ContentPage.Content>
         <StackLayout Padding="25">
-            <Button Text="Relative layout"/>
-            <Button Text="Absolute layout"/>
-            <Button Text="Grid layout"/>
-            <Button Text="Flex layout"/>
-            <Button Text="Stack layout"/>
+
+            <StackLayout Orientation="Horizontal"
+                         Margin="0,0,0,20"
+                         HeightRequest="60">
+
+                <Label Text="Menú"
+                       FontSize="Title"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"/>
+
+            </StackLayout>
+
+            <Button Text="Stack layout"
+                    Clicked="Button_Clicked"/>
+
+            <Button Text="Grid layout"
+                    Clicked="Button_Clicked_1"/>
+
+            <Button Text="Flex layout"
+                    Clicked="Button_Clicked_2"/>
+            
+            <Button Text="Absolute layout"
+                    Clicked="Button_Clicked_3"/>
+
+            <Button Text="Relative layout"
+                    Clicked="Button_Clicked_4"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

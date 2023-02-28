@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "YyaDRQdpII2lTSwtPz5okJW1jP9kL3Gr6jCFD5vx3nDct5asmx0pGTC0w4jDjmUqFC7sP5RzDR41Y3D62cVFsw==",
+  "dgSpecHash": "AzL8pOxQkjLoOmdqfoQLyA1fyd69/EKbJM9O1QL7Ny3AjX6ZwKV37s5VRKxr2EqxzLVD5fhavzB2XCCV11oyMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gusta\\source\\repos\\layouts\\layouts\\layouts\\layouts.csproj",
+  "projectFilePath": "C:\\Users\\micro\\source\\repos\\Atencio17\\exposici-n\\layouts\\layouts\\layouts\\layouts.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\micro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\micro\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\micro\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\micro\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\micro\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

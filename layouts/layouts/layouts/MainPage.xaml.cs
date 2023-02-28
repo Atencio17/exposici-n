@@ -13,6 +13,7 @@ namespace layouts
         public MainPage()
         {
             InitializeComponent();
+
             this.Flyout = new maestro();
             this.Detail = new NavigationPage(new detalle());
 

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="layouts.GridLayout"
+             Title="Grid Layout">
+   
+    <ContentPage.Content>
+
+        <ScrollView Margin="20, 20, 20, 20">
+
+            <StackLayout>
+
+                <Label Text="GRID / GRILLA"
+                       Margin="0, 0, 0, 20"
+                       FontSize="Title"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <Label FontSize="Medium">
+                    Grid coloca sus elementos secundarios en una cuadrícula de filas y columnas. La posición de un elemento secundario se indica mediante las propiedades adjuntas Row, Column, RowSpan y ColumnSpan.
+                </Label>
+
+                <Grid Margin="0, 20, 0, 0" ColumnSpacing="10" RowSpacing="10">
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" 
+                   Grid.Column="0" 
+                   BackgroundColor="#E6287A"
+                   Grid.ColumnSpan="2"
+                   Padding="5"
+                   FontSize="16"
+                   TextColor="white"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center">
+                        0, 0
+                    </Label>
+
+                    <Label Grid.Row="0" 
+                   Grid.Column="2" 
+                   BackgroundColor="#F87EB2"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center">
+                        0, 2
+                    </Label>
+
+                    <Label Grid.Row="1" 
+                   Grid.Column="0" 
+                   BackgroundColor="#3DD6D0"
+                   TextColor="white"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center">
+                        1, 0
+                    </Label>
+
+                    <Label Grid.Row="1"
+                   Grid.Column="1"
+                   BackgroundColor="#15B097"
+                   TextColor="white"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center">
+                        1, 1
+                    </Label>
+
+                    <Label Grid.Row="1" 
+                    Grid.Column="2"
+                       BackgroundColor="#71F79F"
+                       Grid.RowSpan="2"
+                       TextColor="white"
+                       VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center">
+                        1, 2
+                    </Label>
+
+                    <Label Grid.Row="2" 
+                       Grid.Column="0"
+                       BackgroundColor="#6A4225"
+                       TextColor="white"
+                       VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center">
+                        2, 0
+                    </Label>
+
+                    <Label Grid.Row="2"
+                       Grid.Column="1"
+                       BackgroundColor="#513C2C"
+                       TextColor="White"
+                       Padding="20"
+                       FontSize="20"
+                       VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center">
+                        Siempre que necesitemos crear un diseño que contenga un conjunto de columnas y filas 
+                    </Label>
+
+
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
