@@ -3,10 +3,51 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="layouts.FlexLayout">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Flex Layout"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+
+                <FlexLayout Direction="Column" Padding="20,20,20,20" >
+                    <Label Text="FLEX LAYOUT" FontAttributes="Bold" FontSize="Title" FlexLayout.AlignSelf="Center" Padding="20,20,20,20"/>
+                    <Label Text="FlexLayout nos ayuda a acomodar y alinear de madera distribuida(o no), los elementos de una pantalla y tiene la capacidad de envolverlos si hubiera muchos para que quepan en una sola fila o columna, haciendo nuestra vista responsiva, cuenta con muchas opciones para la orientación  del dispositivo y así adaptarse a diferentes tamaños de pantalla." FlexLayout.AlignSelf="Center"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Column" Padding="20,20,20,20">
+                    <Label Text="Direction='Column'" FlexLayout.AlignSelf="Center"/>
+                    <BoxView BackgroundColor="#01395C" FlexLayout.Grow="1"/>
+                    <BoxView BackgroundColor="#7C96A8" FlexLayout.Grow="1"/>
+                    <BoxView BackgroundColor="#8AC6BF" FlexLayout.Grow="1"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Row" Padding="20,0,20,20">
+                    <Label Text="Direction='Row'" FlexLayout.AlignSelf="Center"/>
+                    <BoxView BackgroundColor="#01395C" FlexLayout.Grow="1"/>
+                    <BoxView BackgroundColor="#7C96A8" FlexLayout.Grow="1"/>
+                    <BoxView BackgroundColor="#8AC6BF" FlexLayout.Grow="1"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Column"  AlignItems="Center" Padding="20,0,20,20">
+                    <Label Text="AlignItems" FlexLayout.AlignSelf="Center"/>
+                    <Label Text="Juanes" BackgroundColor="#01395C" FlexLayout.Grow="1"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Column" AlignItems="End" Padding="20,0,20,20">
+                    <Label Text="Andres" BackgroundColor="#8AC6BF" FlexLayout.Grow="1"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Column" AlignItems="Start" Padding="20,0,20,20">
+                    <Label Text="Eliasib" BackgroundColor="#7C96A8" FlexLayout.Grow="1"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Column"  AlignItems="Stretch" Padding="20,0,20,20">
+                    <Label Text="Daniel" BackgroundColor="#8AC6BF" FlexLayout.Grow="1"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Column"  AlignItems="Center" FlexLayout.Basis="400">
+                    <Label Text="Basis 200" />
+                    <BoxView BackgroundColor="#01395C"/>
+                </FlexLayout>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -3,10 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="layouts.RelativeLayout">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Relative Layout"
+        <ScrollView>
+            <StackLayout Margin="20,20,20,20">
+                <Label Text="RELATIVE LAYOUT"
+                       Margin="0, 0, 0, 20"
+                       FontSize="Title"
+                       HorizontalOptions="CenterAndExpand"/>
+                
+                <Label Text="RelativeLayout se utiliza para posicionar y dimensionar vistas en relación con las propiedades del diseño o las vistas entre hermanos. A diferencia de AbsoluteLayout, RelativeLayout no tiene el concepto del ancla móvil y no tiene instalaciones para colocar elementos en relación con los bordes inferior o derecho del diseño. RelativeLayout admite elementos de posicionamiento fuera de sus propios límites."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+
+                <RelativeLayout>
+
+
+                    <Image Source="https://aka.ms/campus.jpg" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.1}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.1}"/>
+
+                    <StackLayout Padding="20" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.1}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.8}">
+                        <Entry Placeholder="Username" />
+                        <Entry Placeholder="Password" IsPassword="True" />
+                        <Button Text="Login"/>
+                    </StackLayout>
+
+                    <Button Text="Register" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.4}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.8}" />
+
+                </RelativeLayout>
+            </StackLayout>
+        </ScrollView>
+
     </ContentPage.Content>
 </ContentPage>
