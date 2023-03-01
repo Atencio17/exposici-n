@@ -1,12 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="layouts.StackLayout">
+             x:Class="layouts.StackLayout"
+             Title="Stack layout">
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Stack Layout"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout >
+
+            <Label Text="STACK LAYOUT"
+                       Margin="20, 20, 20, 20"
+                       FontSize="Title"
+                       HorizontalOptions="CenterAndExpand"/>
+
+            <Label FontSize="Medium"
+                   Margin="20, 20, 20, 20">
+                StackLayout organiza las vistas secundarias en una pila unidimensional, ya sea horizontal o verticalmente. Por defecto, a StackLayout está orientado verticalmente. Además, se StackLayout puede utilizar como diseño principal que contiene otros diseños secundarios.
+            </Label>
+
+            <Label FontSize="Medium"
+                   Margin="20, 0, 20, 0">
+                Propiedades usadas: Orientation y verticalOptions.
+            </Label>
+
+            <StackLayout Orientation="Vertical"
+                     Spacing="10"
+                         Margin="20, 20, 20 ,0"
+                         BackgroundColor="LightGray">
+
+                <BoxView BackgroundColor="#3DD6D0"
+                 VerticalOptions="FillAndExpand"
+                         HorizontalOptions="Start"/>
+
+                <BoxView BackgroundColor="#15B097"
+                 VerticalOptions="FillAndExpand" 
+                         HorizontalOptions="Center"/>
+
+                <BoxView BackgroundColor="#513C2C"
+                 VerticalOptions="FillAndExpand" />
+
+                 <BoxView BackgroundColor="#6A4225"
+                          VerticalOptions="FillAndExpand" 
+                          HorizontalOptions="End"/>
+                
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                     Spacing="0"
+                         Margin="20, 20, 20 ,0"
+                         BackgroundColor="LightGray">
+
+                <BoxView BackgroundColor="#219EBC"
+                 HorizontalOptions="FillAndExpand"/>
+
+                <BoxView BackgroundColor="#023047"
+                 HorizontalOptions="FillAndExpand" />
+
+                <BoxView BackgroundColor="#FFB703"
+                 HorizontalOptions="FillAndExpand" />
+
+                <BoxView BackgroundColor="#FB8500"
+                 HorizontalOptions="FillAndExpand" />
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         Spacing="0"
+                         Margin="20, 20, 20 ,0"
+                         BackgroundColor="LightGray">
+
+                <BoxView BackgroundColor="#219EBC"
+                 HorizontalOptions="StartAndExpand"/>
+                
+                <BoxView BackgroundColor="#FB8500"
+                 HorizontalOptions="End" />
+
+            </StackLayout>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

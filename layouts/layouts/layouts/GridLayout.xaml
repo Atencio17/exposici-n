@@ -16,8 +16,13 @@
                        HorizontalOptions="CenterAndExpand"/>
 
                 <Label FontSize="Medium">
-                    Grid coloca sus elementos secundarios en una cuadrícula de filas y columnas. La posición de un elemento secundario se indica mediante las propiedades adjuntas Row, Column, RowSpan y ColumnSpan.
+                    Grid es un diseño que organiza sus elementos secundarios en filas y columnas, que pueden tener tamaños proporcionales o absolutos. De forma predeterminada, las vistas Grid contienen una fila y una columna. Está pensado para diseñar contenido. Para mostrar datos de forma tabular
                 </Label>
+
+                <Label FontSize="Medium">
+                    Propiedades usadas: RowDefinition, ColumnDefinition, Grid.row, Grid.column, RowSpan y ColumnSpan.
+                </Label>
+
 
                 <Grid Margin="0, 20, 0, 0" ColumnSpacing="10" RowSpacing="10">
                     <Grid.RowDefinitions>
